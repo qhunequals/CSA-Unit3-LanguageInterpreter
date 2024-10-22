@@ -2,11 +2,11 @@
 class Main {
 
     public static void main(String[] args) {
-          Lexicon speak = new Lexicon();
+          LexiconExplorer speak = new LexiconExplorer();
       
           // Start typing your code below:
-        String newWord = speak.translate("entering");
-        System.out.println(newWord);
+        String newWord = speak.translate("Hoenttingy deentclivityingy.");
+        System.out.println("Output:\n\n" + newWord);
   
   
           
